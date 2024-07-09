@@ -1,0 +1,240 @@
+:root{
+    --color-primario:#698474;
+    --color-primariomob: #B7B597;
+    --color-botones: #DCA47C;
+    --color-cajatexto: #FFD3B6;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.area1{
+    background-color: var(--color-primario);
+    width: 30%;
+    height: 100%;
+    border: black;
+}
+
+.area2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--color-primario);
+    width: 35%;
+    height: auto;
+    padding: 21px 30px 30px 80px;
+    border: black;
+}
+
+.copyright{
+    position: relative;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 13px;
+    padding-top: 20%;
+    margin: 20px;
+}
+
+.area3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--color-primario);
+    width: 35%;
+    height: auto;
+    border: black;
+}
+
+.mensaje{
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: whitesmoke;
+}
+
+ .parrafo{
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    color: whitesmoke;
+}
+
+.textNormal{
+    width: 90%;
+    height: 350px;
+    margin-left: 4%;
+    margin-top: 9%;
+    text-align:left;
+    border: none;
+    background-color: var(--color-cajatexto);
+    color: #000000;
+    font-size: 20px;
+}
+
+.textoEncrip{
+    width: 90%;
+    height: 60%;
+    background-color: var(--color-cajatexto);
+    text-align: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 8%;
+    padding-bottom: 0%;
+    overflow-wrap: break-word;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.botonCopiar{
+    width: 50%;
+    height:5% ;
+    margin-left: 25%;
+    border-radius:15px 15px 15px 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    background-color: var(--color-botones);
+}
+
+.botonEncriptar{
+    width: 40%;
+    height:200%;
+    border-radius:15px 15px 15px 15px;
+    background-color: var(--color-botones);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Imagen*/
+
+.img1{
+    width: 25%;
+    height: auto;
+    padding: 15%;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.botonEncriptar:hover{
+    background-color:#EEEEEE;
+}
+
+  .botonCopiar:hover{
+    background-color:#EEEEEE;
+}
+
+/*Medidas Query*/
+
+@media all and (max-width: 480px) { 
+
+     body{
+        display: block;
+        justify-content: center;
+        height: auto
+    }
+
+    html{
+        height: 100%;
+    }
+
+    .area1{
+        width: 100%;
+        height: 50%;
+        background-color: var(--color-primariomob);
+    }
+
+    .img1{
+        width: 10%;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+
+    .area2{
+        display: block;
+        background-color: var(--color-primariomob);
+        width: 80%;
+        height: 100%;
+        padding-left:42px ;
+    }
+
+    .area3{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-primariomob);
+        width: 100%;
+        height: 100%;
+    }
+
+    .area3 p{
+        position: absolute;
+        font-size: 70%;
+        margin-left: 25%;
+    }
+
+    p{
+        padding: 15px 15px;
+    }
+
+    .area3 h2{
+        position: absolute;
+        font-size: 70%;
+        margin-left: 25%;
+    }
+
+    .img{
+        width: 40%;
+        height: auto;
+        padding: 0 0;
+        margin: 10px 10px;
+    }
+
+    .textoEncrip{
+        margin: 3%;
+    }
+
+    .botonCopiar{
+        margin: 0.5%;
+        margin-left: 22%;
+    }
+
+  .copyright{
+    display: none;
+  }
+
+  .botonEncriptar:hover{
+    background-color:#A7E6FF;
+  }
+
+  .botonCopiar:hover{
+    background-color:#A7E6FF;
+  }
+}
