@@ -177,6 +177,7 @@ body{
         width: 10%;
         padding: 0 0;
         margin: 10px 10px;
+        justify-content: center;
     }
 
     .area2{
@@ -216,6 +217,7 @@ body{
         height: auto;
         padding: 0 0;
         margin: 10px 10px;
+        justify-content: center;
     }
 
     .textoEncrip{
