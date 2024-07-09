@@ -168,23 +168,23 @@ body{
 
     .area1{
         display: flex;
-        width: auto;
+        width: 20%;
         height: 40%;
         background-color: var(--color-primariomob);
     }
 
     .img1{
-        width: auto;
+        width: 20%;
         height: 40%;
         padding: 0 0;
-        margin: 10px 10px;
+        /*margin: 10px 10px;*/
         justify-content: center;
     }
 
     .area2{
         display: flex;
         background-color: var(--color-primariomob);
-        width: auto;
+        width: 40%;
         height: 40%;
         /*padding-left: 42px;*/
     }
@@ -193,7 +193,7 @@ body{
         display: flex;
         flex-direction: column;
         background-color: var(--color-primariomob);
-        width: auto;
+        width: 40%;
         height: 40%;
     }
 
@@ -204,7 +204,7 @@ body{
     }
 
     p{
-        padding: 15px 15px;
+        /*padding: 15px 15px;*/
     }
 
     .area3 h2{
@@ -214,10 +214,10 @@ body{
     }
 
     .img{
-        width: auto;
+        width: 40%;
         height: 40%;
         padding: 0 0;
-        margin: 10px 10px;
+        /*margin: 10px 10px;*/
         justify-content: center;
     }
 
@@ -225,10 +225,10 @@ body{
         margin: 3%;
     }
 
-    .botonCopiar{
-        margin: 0.5%;
-        margin-left: 22%;
-    }
+    /*.botonCopiar{*/
+        /*margin: 0.5%;*/
+        /*margin-left: 22%;*/
+    /*}*/
 
   .copyright{
     display: none;
